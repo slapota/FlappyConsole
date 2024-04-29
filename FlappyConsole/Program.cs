@@ -77,7 +77,7 @@ namespace FlappyConsole
 
                 foreach(Block b in blocks)
                 {
-                    for(int i = 0; i < b.upperY; i++)
+                    for(int i = 0; i < b.upperY; i++) 
                     {
                         Char(b.x, i, '|');
                     }
